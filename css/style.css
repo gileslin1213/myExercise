@@ -104,3 +104,66 @@ h2 {
 .whiteBox0510:last-child{
   align-self: flex-end;
 }
+/* 0511 */
+.wrap0511{
+  width: 800px;
+  background: #f8f9fa;
+  margin: 0 auto;
+}
+.logo0511{
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 50px;
+}
+.wrap0511 nav{
+  font-size: 18px;
+  font-weight: bold;
+  background: #a6a5c4;
+  padding: 14px 0;
+  margin-bottom:24px;
+  text-align: center;
+}
+.wrap0511 ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: inline-flex;
+}
+.wrap0511 li{
+  margin-right: 72px;
+}
+.wrap0511 li:last-child{
+  margin-right: 0;
+}
+.flex0511{
+  display: flex;
+}
+.imgArea0511{
+  width: 380px;
+  height: 380px;
+  background: #deb068;
+}
+.text0511{
+  width: calc(50% + 4px);
+  margin-left: 16px;
+  font-size: 14px;
+  display: flex;
+  flex-direction: column;
+}
+.text0511 p{
+  flex-grow: 1;
+}
+.text0511 button{
+  width: 120px;
+  padding: 12px 0;
+  background:#d4dcd6;
+  border: none;
+  font-weight: bold;
+}
+.text0511 button:last-child{
+  float: right;
+}
+.text0511 button:hover{
+  background: #44617b;
+  color:#fff;
+}
