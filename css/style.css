@@ -1,12 +1,14 @@
-body{
+body {
   background-color: #212529;
 }
-h1,h2{
-  color:#f8f9fa;
+h1,
+h2 {
+  color: #f8f9fa;
   text-align: center;
   margin-bottom: 2rem;
 }
-.flexBox{
+/* 0505 */
+.flexBox {
   height: 300px;
   width: 300px;
   margin: 0 auto;
@@ -15,8 +17,41 @@ h1,h2{
   justify-content: center;
   align-items: center;
 }
-.insideBox{
+.insideBox {
   height: 100px;
   width: 100px;
   background: #44617b;
+}
+/* 0506 */
+.card {
+  width: 300px;
+  margin: 0 auto;
+  background: #fff;
+}
+.card-img {
+  height: 315px;
+  background: #5383c3;
+}
+.card-title {
+  display: flex;
+}
+.card-name,
+.card-price {
+  font-size: 20px;
+  padding: 14px;
+  text-align: center;
+  border: 1px solid black;
+}
+.card-name {
+  flex-grow: 1;
+}
+.card-price {
+  width: 130px;
+}
+.card-btn {
+  color: white;
+  font-size: 24px;
+  padding: 14px;
+  text-align: center;
+  background: #616161;
 }
